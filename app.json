@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ebmb_app",
+    "slug": "ebmb_app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ebmb_app"
+}
