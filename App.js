@@ -3,7 +3,6 @@ import {
   MD3LightTheme as DefaultTheme,
   PaperProvider,
 } from "react-native-paper";
-import lightTheme from "./src/style/color-scheme/LightTheme.json";
 import RootNavigator from "./src/navigation/RootNavigator";
 import { StatusBar } from "react-native";
 
@@ -12,7 +11,6 @@ const theme = {
   roundness: 2,
   myOwnProperty: true,
   colors: {
-    ...DefaultTheme.colors,
     primary: "#3498db",
     secondary: "#f1c40f",
     tertiary: "#a1b2c3",
