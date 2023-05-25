@@ -1,19 +1,15 @@
-import { Text, View } from "react-native";
-import { useTheme } from "react-native-paper";
-import Fonts from "../../style/Fonts";
+import { View, Text } from "react-native";
+import CardView from "../../component/card-view/CardView";
+import styles from "./styles";
 
 export default function DashboardScreen() {
-  const theme = useTheme();
   return (
-    <View
-      style={{
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: theme.colors.background,
-      }}
-    >
-      <Text style={{ fontFamily: Fonts.bold }}>Dashboard</Text>
+    <View style={styles.mainContainer}>
+      <CardView style={styles.card}>
+        <View>
+          <Text>Card View</Text>
+        </View>
+      </CardView>
     </View>
   );
 }
