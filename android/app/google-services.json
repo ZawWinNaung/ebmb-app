@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "45488630036",
+    "project_id": "ebmb-app",
+    "storage_bucket": "ebmb-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45488630036:android:a073b78b7a7f8c4e617a01",
+        "android_client_info": {
+          "package_name": "com.ebmbapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtRbBgFqEqNKHxAkEOA1YjOW2K3SkiPtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
